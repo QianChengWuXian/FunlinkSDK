@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FunlinkSDK"
-  s.version      = "1.0.0.0.0"
+  s.version      = "1.0.0.0.1"
   s.summary      = "Mobile App Aggregation Ad SDK of FunlinkSDK for iOS."
   s.description  = <<-DESC
             FunlinkSDK is an advertising aggregation SDK that allows you to monetize iOS applications through FunlinkSDK advertising.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'FunlinkSDK' do |ss|
     ss.ios.deployment_target = '11.0'
-    ss.vendored_frameworks = 'FunlinkSDK.xcframework'
+    ss.vendored_frameworks = 'FLAdSaas.xcframework'
   end
   
 end
