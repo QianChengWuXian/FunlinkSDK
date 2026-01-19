@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0.0.0"
   s.summary      = "Mobile App Aggregation Ad SDK of FunlinkSDK for iOS."
   s.description  = <<-DESC
-            FunlinkSDK is an advertising aggregation SDK that allows you to monetize iOS applications through Mediatom advertising.
+            FunlinkSDK is an advertising aggregation SDK that allows you to monetize iOS applications through FunlinkSDK advertising.
                    DESC
   s.homepage     = "https://www.mediatom.cn/dockingdocs/detail?id=70"
   s.license      = { :type => "MIT" }
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'FunlinkSDK' do |ss|
     ss.ios.deployment_target = '11.0'
-    ss.vendored_frameworks = 'FunlinkSDK/FunlinkSDK.xcframework'
+    ss.vendored_frameworks = 'FunlinkSDK.xcframework'
   end
   
 end
