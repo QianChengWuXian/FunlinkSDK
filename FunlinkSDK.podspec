@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FunlinkSDK"
-  s.version      = "2.9.0.0.4"
+  s.version      = "2.9.0.0.6"
   s.summary      = "Mobile App Aggregation Ad SDK of FunlinkSDK for iOS."
   s.description  = <<-DESC
             FunlinkSDK is an advertising aggregation SDK that allows you to monetize iOS applications through FunlinkSDK advertising.
